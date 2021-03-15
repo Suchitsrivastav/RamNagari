@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image:url("ram2.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}
+.ram{
+    height: 10%;
+    width: 100%;
+    position: relative;
+    margin-left: 40px;
+    
+}
+
+.ram a{
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+font-size: 22px;
+color: white;
+float: right;
+padding: 5px 20px;
+border: rgb(240, 11, 11) solid  transparent;
+margin-top: 10px;
+margin-right: 20px;
+
+}
+.ram a:link{
+
+    color: rgb(240, 23, 34);
+}
+.ram a:hover{
+    color:black;
+    font-size: 30px;
+    background-color: white;
+
+}
+.logo img{
+
+    float: left;
+    height:50px;
+    width: auto;
+}
+ a.active{
+    background-color:white;
+    color: black;
+}
+.title{ 
+    position:absolute;
+    margin-top: 25px;
+    margin-left: 40%;
+    colorbalck;
+    background-color:yellow ;
+
+    
+}
